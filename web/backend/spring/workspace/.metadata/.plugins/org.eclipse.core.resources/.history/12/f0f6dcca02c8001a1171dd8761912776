@@ -1,0 +1,12 @@
+package com.javatpoint;
+
+import org.aspectj.lang.JoinPoint;
+
+public class TrackOperation {
+	
+	//The advice
+	public void myadvice(JoinPoint pjp, Throwable error) throws Throwable   
+	{  
+		
+	}
+}

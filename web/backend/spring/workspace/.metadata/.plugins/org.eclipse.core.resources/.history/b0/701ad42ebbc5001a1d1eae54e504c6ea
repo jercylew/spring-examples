@@ -1,0 +1,11 @@
+package com.javatpoint;
+
+/**
+ * 
+ * @author Administrator
+ * Demo of Auto Wiring by type, it works by setter internally
+ */
+
+public class D {
+
+}

@@ -1,0 +1,28 @@
+package com.javatpoint;  
+
+public class A {  
+	B bObject;
+	CTest cObj; 
+	
+	A() {
+		System.out.println("a is created");
+	}
+	
+	public void setC(CTest cTest) {
+		this.cObj = cTest;
+	}
+	
+	public CTest getC() {
+		return this.cObj;
+	}
+	
+	void print() {
+		System.out.println("hello a");
+	}
+	
+	void display() {
+		print();
+		bObject.print();
+		cObj.print();
+	} 
+} 

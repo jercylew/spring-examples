@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.javatpoint.Employee"/>
+    <fullyQualifiedTypeName name="com.javatpoint.Address"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.sun.java.util.jar.pack.ConstantPool.Entry"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="org.springframework.aop.AfterReturningAdvice"/>
+    <fullyQualifiedTypeName name="org.aopalliance.intercept.MethodInterceptor"/>
+    <fullyQualifiedTypeName name="org.aopalliance.intercept.MethodInvocation"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+</qualifiedTypeNameHistroy>

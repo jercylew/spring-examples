@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.javatpoint.AfterAdvisor&apos; to &apos;AroundAdvisor&apos;&#x0D;&#x0A;- Original project: &apos;AOP_MethodInterceptor&apos;&#x0D;&#x0A;- Original element: &apos;com.javatpoint.AfterAdvisor&apos;&#x0D;&#x0A;- Renamed element: &apos;com.javatpoint.AroundAdvisor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AfterAdvisor&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.javatpoint{AfterAdvisor.java[AfterAdvisor" matchStrategy="1" name="AroundAdvisor" qualified="false" references="true" similarDeclarations="false" stamp="1594871883751" textual="false" version="1.0"/>
+</session>

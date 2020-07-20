@@ -1,0 +1,26 @@
+package com.javatpoint;  
+
+public class A {  
+	B c;
+	
+	A() {
+		System.out.println("a is created");
+	}
+	
+	public B getB() {
+		return c;  
+	}
+	
+	public void setB(B bObj) {
+		this.c = bObj;  
+	}
+	
+	void print() {
+		System.out.println("hello a");
+	}
+	
+	void display() {
+		print();
+		c.print();
+	} 
+} 

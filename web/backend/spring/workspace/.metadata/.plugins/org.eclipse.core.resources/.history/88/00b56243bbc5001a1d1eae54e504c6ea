@@ -1,0 +1,42 @@
+package com.javatpoint;
+
+/**
+ * 
+ * @author Administrator
+ * Demo of Auto Wiring by type, it works by setter internally
+ */
+
+public class D {
+	B bObject;
+	CTest objCTest; 
+	
+	D() {
+		System.out.println("a is created");
+	}
+	
+	public B getbObject() {
+		return bObject;
+	}
+
+	public CTest getObjCTest() {
+		return objCTest;
+	}
+
+	public void setObjCTest(CTest objCTest) {
+		this.objCTest = objCTest;
+	}
+
+	public void setbObject(B bObject) {
+		this.bObject = bObject;
+	}
+	
+	void print() {
+		System.out.println("hello a");
+	}
+	
+	void display() {
+		print();
+		bObject.print();
+		objCTest.print();
+	}
+}

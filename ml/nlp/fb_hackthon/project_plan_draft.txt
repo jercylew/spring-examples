@@ -1,0 +1,28 @@
+Create a APP (System)
+which helps learning new language
+
+Disclaim: This APP soley aims to enhance you language proficiency, not for improve you performance in Language test like IELTS, TOEFL, PTE etc
+Any one can use this too learn a language for free, regardless origin, nationalty, skin color, sex oretentation
+
+Focus on Speaking and Listening, no writing and reading
+
+Build bot with different roles (Street, school, store, airport...)
+User learn by practice instead of memorizing
+
+From Easy to difficult
+
+IMPORTANT: NO TRANSLATION (Maybe in the first few sections there would be little tips of user's native language)
+
+The user can choose different roles each day. 
+
+Learning way: Complete tasks, mission,(Maybe very long, 2-3 hours)...(eg: The system ask the user to actually find a specific metro station and buy a tickets, there are various scenarios designed, the user need to ask the bots to get the station and
+ask how to buy the tickets)
+
+Note: Design roles, scenarios
+
+Compare Duolinggo, Roste, etc
+
+
+May earn money by contribute speaking to the APP()
+
+

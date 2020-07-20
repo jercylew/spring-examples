@@ -1,0 +1,35 @@
+package com.javatpoint;  
+  
+import org.springframework.beans.factory.BeanFactory;  
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;  
+import org.springframework.core.io.Resource;  
+  
+public class Test {
+	public static void main(String[] args) {
+		ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+		A a= context.getBean("a",A.class);
+		
+	    a.display();
+	}
+	
+	private static A getStudentV1() {
+		//Get Student with BeanFactory
+		Resource resource = new ClassPathResource("applicationContext.xml");  
+	    BeanFactory factory = new XmlBeanFactory(resource);  
+	      
+	    A student = (A)factory.getBean("studentbean");
+	    
+	    return student;
+	}
+	
+	private static A getStudentV2() {
+		//Get Student with ApplicationContext
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml"); 
+		A student=(A)context.getBean("studentbean");
+	    
+	    return student;
+	}
+}

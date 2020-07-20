@@ -1,0 +1,16 @@
+Workround to speedup Android Studio
+
+In gradle.properties, put this:
+
+org.gradle.daemon=true
+org.gradle.jvmargs=-Xmx2048m -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
+org.gradle.parallel=true
+org.gradle.configureondemand=true
+
+And in build.gradle, put this (Note this will disable lint check):
+
+tasks.whenTaskAdded { task ->
+    if (task.name.equals("lint")) {
+        task.enabled = false
+    }
+}

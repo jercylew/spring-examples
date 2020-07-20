@@ -1,0 +1,12 @@
+package com.javatpoint;
+
+public class CTest {
+	CTest() 
+	{
+		System.out.println("c is created");
+	}
+	
+	void print() {
+		System.out.println("hello c");
+	}  
+}

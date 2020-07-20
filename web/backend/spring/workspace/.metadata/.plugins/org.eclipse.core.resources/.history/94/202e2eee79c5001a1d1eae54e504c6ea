@@ -1,0 +1,17 @@
+package com.javatpoint;  
+  
+public class Address {  
+private String m_strAddressLine1;
+private String m_strCity;
+private String m_strState;
+private String m_strCountry;
+
+  
+//getters and setters
+
+  
+public String toString(){  
+    return addressLine1+" "+city+" "+state+" "+country;  
+}
+
+}

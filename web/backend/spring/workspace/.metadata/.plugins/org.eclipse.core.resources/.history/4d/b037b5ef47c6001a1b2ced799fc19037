@@ -1,0 +1,16 @@
+package com.javatpoint;
+
+public class PrintableFactory {  
+	public static Printable getPrintable(String type) {  
+		//return new B();
+		Printable obj = null;
+		
+		if (type.toLowerCase() == "a") {
+			obj = new A();
+		}
+		else if (type.toLowerCase() == "b") {
+			obj = new B();
+		}
+		return obj;  
+	}  
+}
