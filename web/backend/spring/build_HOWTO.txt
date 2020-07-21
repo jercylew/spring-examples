@@ -1,0 +1,16 @@
+Build and run Java App from CLI
+# Enter the project directory
+cd project_directory
+
+When CLASSPATH environment variable not specified
+	# Build, suppose we have two dependencies jar1 and jar2 
+		javac -cp "path\to\jar1_dir\*;path\to\jar2_dir2\*;." -d . *.java
+		
+	# Run this app
+		java -cp "path\to\jar1_dir\*;path\to\jar2_dir2\*;." package1.package2.MainClass
+		
+When CLASSPATH already specified
+	# Build
+		javac -d . *.java
+	# Run
+		java package1.package2.MainClass
