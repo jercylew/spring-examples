@@ -8,7 +8,7 @@
        http://www.springframework.org/schema/aop/spring-aop.xsd">  
   
   
-    <bean id="opBean" class="com.javatpoint.Operation">   </bean>  
+    <bean id="opBean" class="com.javatpoint.Operation"></bean>  
     <bean id="trackMyBean" class="com.javatpoint.TrackOperation"></bean>  
       
     <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"></bean>  
