@@ -1,4 +1,4 @@
-Build and run Java App from CLI
+-Build and run Java App from CLI
 # Enter the project directory
 cd project_directory
 
@@ -14,3 +14,7 @@ When CLASSPATH already specified
 		javac -d . *.java
 	# Run
 		java package1.package2.MainClass
+		
+
+-Install local jar for Maven manually
+mvn install:install-file -Dfile=D:/ProgramData/product/18.0.0/dbhomeXE/jdbc/lib/ojdbc8.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=18.0.0 -Dpackaging=jar

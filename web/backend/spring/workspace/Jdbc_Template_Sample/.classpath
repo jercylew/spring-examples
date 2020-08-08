@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="../external_jars/springjars/core/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="../external_jars/springjars/core/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="../external_jars/springjars/core/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="../external_jars/springjars/core/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="../external_jars/springjars/core/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="../external_jars/springjars/core/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="../external_jars/springjars/core/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="../external_jars/springjars/core/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/ProgramData/product/18.0.0/dbhomeXE/jdbc/lib/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="D:/ProgramData/product/18.0.0/dbhomeXE/jdbc/lib/ojdbc8_g.jar"/>
+	<classpathentry kind="lib" path="D:/ProgramData/product/18.0.0/dbhomeXE/jdbc/lib/ojdbc8dms.jar"/>
+	<classpathentry kind="lib" path="D:/ProgramData/product/18.0.0/dbhomeXE/jdbc/lib/ojdbc8dms_g.jar"/>
+	<classpathentry kind="lib" path="D:/ProgramData/product/18.0.0/dbhomeXE/jdbc/lib/simplefan.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/tech_portfolio/web/backend/spring/workspace/external_jars/springjars/persistCore/org.springframework.jdbc-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/tech_portfolio/web/backend/spring/workspace/external_jars/springjars/persistCore/org.springframework.orm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/tech_portfolio/web/backend/spring/workspace/external_jars/springjars/persistCore/org.springframework.transaction-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/tech_portfolio/web/backend/spring/workspace/external_jars/springjars/persistCore/persistence.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
